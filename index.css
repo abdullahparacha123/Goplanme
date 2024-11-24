@@ -543,5 +543,26 @@ body{
         width: 90px;
         font-size: 10px;
     }
+    .footer-container{
+        display: block;
+    }
+    .footer-links{
+        display: block;
+    }
+    .ul1{
+        margin-left: 0px;
+    }
+    .ul2{
+        margin-left: 0px;
+    }
+    .head6{
+        margin-left: 0px;
+    }
+    .head7{
+        margin-left: 0px;
+    }
+    .logo-section{
+        margin-left: 60px;
+    }
 
 }
