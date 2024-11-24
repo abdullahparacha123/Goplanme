@@ -7,11 +7,14 @@ body{
     background-color: #ffffff;
     height: 50px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .div1{
-    margin-left: 70px;
+    /* margin-left: 70px; */
+}
+.img10{
+    display: none;
 }
 .a{
     text-decoration: none;
@@ -26,6 +29,7 @@ body{
     border-color: #91b3b0;
     color: #91b3b0;
     background-color: #ffffff;
+    
 }
 .btn2{
     width: 80px;
@@ -33,7 +37,6 @@ body{
     border-radius: 80px;
     background-color: #6d70a6;
     color: #ffffff;
-    margin-right: 10px;
 }
 .para1{
     width: 500px;
@@ -44,9 +47,10 @@ body{
     display: flex;
     background-color: #7F56D90A;
     align-items: center;
+    justify-content: center;
 }
 .head1{
-    width: 70%;
+    width: 400px;
     color: #6c769e;
     font-size: 300%;
     margin-left: 100px;
@@ -74,6 +78,7 @@ body{
     background-color: #ffffff;
     border-color: #ffffff;
     box-shadow: none;
+    border-radius: 8px;
 }
 .btn4{
     height: 40px;
@@ -83,6 +88,7 @@ body{
     background-color: #ffffff;
     border-color: #ffffff;
     box-shadow: none;
+    border-radius: 8px;
 }
 .btn5{
     height: 40px;
@@ -90,6 +96,7 @@ body{
     background-color: #6c769e;
     border-color: #6c769e;
     color: #ffffff;
+    border-radius: 8px;
 }
 .main{
     width: 100%;
@@ -148,6 +155,8 @@ body{
 }
 .div3{
     position: relative;
+    justify-items: center;
+
 }
 .img6{
     position: absolute;
@@ -164,7 +173,6 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 15px;
     margin-top: 20px;
-    margin-left: 190px;
     width: 900px;
 }
 .num-box{
@@ -267,6 +275,10 @@ body{
     align-items: center;
     gap: 20px;
 }
+.signup-form{
+    justify-content: center;
+    justify-items: center;
+}
 .signup-container{
     text-align: center;
     background-color:#89B9A5;
@@ -275,7 +287,6 @@ body{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width:1000px;
     overflow: hidden;
-    margin-left:170px;
     margin-top: 100px;
 }
 .head5{
@@ -366,4 +377,132 @@ body{
     color: white;
     text-align: center;
     margin-top:20px;
+}
+@media(max-width: 425px){
+    .media-div{
+        display: none;
+    }
+    .media-div1{
+        display: none;
+    }
+    .img10{
+        display: flex;
+        margin-left: 130px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .div1{
+        display: flex;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .img1{
+        margin-left: 20px;
+    }
+    .div2{
+        display: block;
+    }
+    .btn3{
+        width: 110px;
+        margin-top: 5px;
+        margin-left: 18px;
+    }
+    .btn4{
+        width: 110px;
+    }
+    .btn5{
+        width: 110px;
+        margin-top: 5px;
+    }
+    .media-div3{
+        display: flex;
+    }
+    .head1{
+        margin-left: 18px;
+    }
+    .para1{
+        margin-left: 18px;
+    }
+    .img4{
+        width: 410px;
+        margin-left: 18px;
+    }
+    .media-div4{
+        display: block;
+    }
+    .main{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 180px;
+        height: 75px;
+    }
+    
+    .img5{
+        width: 71px;
+        height: 71px;
+    }
+    .circle-image{
+        left: 55px;
+        top: -35px;
+    }
+    .para2{
+        width: 130px;
+        font-size: 11px;
+        margin-left: 20px;
+    }
+    .number1{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .number2{
+        font-size: 15px;
+        margin-left: 2px;
+
+    }
+    .number3{
+        font-size: 15px;
+        margin-left: 2px;
+    }
+    .number4{
+        font-size: 15px;
+        margin-left: 2px;
+    }
+    .text{
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .para3{
+        font-size: 15px;
+        width: 170px;
+    }
+    .hire-btn{
+        width: 67px;
+        height: 23px;
+        font-size: 5px;
+        margin-top: 0px;
+    }
+    .container1{
+        width: 350px;
+    }
+    .img6{
+        margin-top: 110px;
+    }
+    .parent-div{
+        margin-top: 310px;
+        margin-left: 0px;
+        flex-direction: column-reverse;
+    }
+    .img7{
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .head2{
+        margin-left: -150px;
+        font-size: 10px;
+        margin-top: 50px;
+    }
+
 }
